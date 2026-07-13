@@ -110,6 +110,6 @@ git -C data add profile.md && git -C data commit -m "profile: 增量更新 #N"
    ```
 5. git commit（若可用）：
    ```bash
-   git -C data add -A && git -C data commit -m "archive: YYYY-MM-DD-NN <标题>"
+   git -C data add samples/ && git -C data commit -m "archive: YYYY-MM-DD-NN <标题>"
    ```
 
