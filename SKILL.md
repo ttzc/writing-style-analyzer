@@ -4,7 +4,7 @@ description: >
   分析用户写作习惯 & 按用户风格改写文章。三大核心能力：
   1) 分析单篇：对比 AIGC 文章与用户修改版，提取写作风格（触发词："分析写作习惯"、"对比写作风格"、"帮我分析我改了哪些"）；
   2) 全量整理：用所有归档样本重新编译精准画像（触发词："重新整理画像"、"全量分析"、"compile profile"）；
-  3) 改写文章：根据画像将 AI 文章改写成用户风格（触发词："用我的风格改写"、"rewrite in my style"）。
+  3) 改写文章：根据画像将 AI 文章改写成用户风格（触发词："用我的风格改写"、"改成我的风格"、"按我的写作习惯改"、"帮我改成我的风格"、"rewrite in my style"）。
   画像存储于 data/profile.md，代表性样本归档到 data/samples/。
 agent_created: true
 ---
@@ -30,7 +30,7 @@ agent_created: true
 │   └── → 加载 references/analyze_single.md，走单篇分析流程
 ├── "重新整理画像" / "全量分析" / "compile profile"
 │   └── → 加载 references/compile_profile.md，走全量重编译
-├── 提供一篇 AI 文章 + "改成我的风格" / "rewrite in my style"
+├── 提供一篇 AI 文章 + 改写意图（"用我的风格改写" / "改成我的风格" / "rewrite in my style" 等）
 │   └── → 加载 references/rewrite.md，走改写流程
 └── 意图不明确
     └── → 追问：分析单篇？全量整理？改写文章？
