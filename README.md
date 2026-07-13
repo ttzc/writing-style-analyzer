@@ -256,7 +256,9 @@ claude skills add writing-style-analyzer /path/to/writing-style-analyzer
 
 ## 许可证
 
-MIT License
+本项目采用 [MIT License](LICENSE)。
+
+Copyright © 2026-present ttzc — 允许自由使用、复制、修改、合并、发布、分发、再许可和/或销售本软件的副本，唯须在所有副本或实质性部分中包含上述版权声明和本许可声明。
 
 ---
 

@@ -7,6 +7,7 @@ description: >
   3) 改写文章：根据画像将 AI 文章改写成用户风格（触发词："用我的风格改写"、"改成我的风格"、"按我的写作习惯改"、"帮我改成我的风格"、"rewrite in my style"）。
   画像存储于 data/profile.md，代表性样本归档到 data/samples/。
 agent_created: true
+license: MIT
 ---
 
 # Writing Style Analyzer
@@ -138,3 +139,9 @@ git -C data show <sha>:samples/2026-07-11-01/aigc_original.md
 新画像初始化模板。首次分析或全量重建时使用。
 
 分析由 LLM 直接完成，无外部脚本依赖。
+
+---
+
+## 许可证
+
+MIT License © 2026-present ttzc — 详见 [LICENSE](../LICENSE)。
