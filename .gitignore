@@ -1,0 +1,16 @@
+# 个人数据 — 风格画像、样本存档（data/ 有独立 git 追踪，不纳入主仓库）
+data/
+
+# 本地 Claude Code 配置（权限、个人偏好）
+.claude/settings.local.json
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+*~
